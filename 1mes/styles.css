@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #fbe7f6, #ffe8e5);
+    color: #444;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background: url('header-background.jpg') no-repeat center center/cover;
+    height: 60vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.header-content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+section {
+    padding: 60px 20px;
+    margin: 40px auto;
+    max-width: 900px;
+    text-align: center;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.linha-do-tempo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.evento {
+    background-color: #ffe5ec;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.evento h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8em;
+    color: #ff6b81;
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.fotos img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.fotos img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #ff6b81;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
